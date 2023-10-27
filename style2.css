@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    font-family: "Poppins",sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    color: white;
+}
+#user{
+    height: 430px;
+    border: 2px solid yellow;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+        
+    
+}
+#user-images img{
+    height: 80px;
+    padding-bottom: 15px;
+}
+.score{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 50px;
+}
+#comp{
+    height: 430px;
+    border: 2px solid yellow;
+    width: 400px;
+}
+#vs {
+    height: 550px;
+    padding:0px  100px;
+
+}
+.hand{
+    height: 250px;
+}
+#user-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: ;
+}
+#player{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+#chand, #hand{
+    width: 370px;
+    
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Poppins",sans-serif;
+    align-items: center;
+}
+#winner{
+   font-size: 35px;
+   padding: 25px;
+   padding-bottom: 20px;
+}
+#hand{
+    position: relative;
+    bottom:0px;
+}
+
