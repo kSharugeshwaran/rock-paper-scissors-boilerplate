@@ -23,7 +23,7 @@ rock.addEventListener('click',rockHand)
 scissors.addEventListener("click",scissorsHand)
 pAgain.addEventListener("click",redirect)
 function paperhand(){
-     phand.setAttribute("src","./assets/paper-hand.png")
+     phand.setAttribute("src","./../assets/paper-hand.png")
      computerOutput()
      if (compOutput == 1){
         score_1++;
@@ -37,7 +37,7 @@ function paperhand(){
 }
 
 function rockHand(){
-    phand.setAttribute("src","./assets/rock-hand.png")
+    phand.setAttribute("src","./../assets/rock-hand.png")
     computerOutput()
     if (compOutput == 3){
         score_1++
@@ -51,7 +51,7 @@ function rockHand(){
 }
 
 function scissorsHand(){
-    phand.setAttribute("src","./assets/scissors-hand.png")
+    phand.setAttribute("src","./../assets/scissors-hand.png")
     computerOutput()
     if (compOutput==2){
         score_1++;
@@ -68,15 +68,15 @@ function computerOutput(){
     compOutput = Math.ceil(Math.random()*3)
     switch(compOutput){
         case 1:
-          cHand.setAttribute("src","./assets/rock-hand.png")
+          cHand.setAttribute("src","./../assets/rock-hand.png")
             break;
             
             case 2:
-          cHand.setAttribute("src","./assets/paper-hand.png")
+          cHand.setAttribute("src","./../assets/paper-hand.png")
             break;
             
             case 3:
-          cHand.setAttribute("src","./assets/scissors-hand.png")
+          cHand.setAttribute("src","./../assets/scissors-hand.png")
             break;
             
     }
