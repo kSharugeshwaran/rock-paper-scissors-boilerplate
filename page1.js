@@ -4,7 +4,7 @@ var playGame = document.getElementById      ("playgame")
 // }
 playGame.addEventListener('click',page2)
 function page2(){
-    window.location.href = "./2ndpage.html"
+    window.location.href = "./src/2ndpage.html"
 }
 // playBtn.onclick = () =>{
 //     window.location.href = "./game.html"
